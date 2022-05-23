@@ -1,0 +1,14 @@
+CREATE TABLE USERS
+(
+    id Int PRIMARY KEY,
+    nom VARCHAR(50) NOT NULL,
+    prennom VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    mot_de_passe VARCHAR(50) NOT NULL,
+    telephone VARCHAR(50) NOT NULL,
+    matricule VARCHAR(50) NOT NULL,
+    ufr VARCHAR(50) NOT NULL,
+    departement VARCHAR(50) NOT NULL,
+    roles VARCHAR(50) NOT NULL
+    
+);

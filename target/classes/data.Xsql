@@ -1,0 +1,11 @@
+INSERT INTO USERS VALUES(1, 'sene' ,'diambar','d.sene@gmail.com','mp1234','773221533','sene20','St','informatique','etudiant');
+
+ 
+
+INSERT INTO USERS VALUES(2, 'sene' ,'heros','d.sene@gmail.com','mp1234','773221533','sene20','St','informatique','etudiant');
+
+ 
+
+INSERT INTO USERS VALUES(3, 'sall' ,'saliou','d.sall@gmail.com','mp1234','763221533','sene20','St','informatique','etudiant');
+
+ 
