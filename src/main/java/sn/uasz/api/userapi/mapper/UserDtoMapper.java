@@ -11,7 +11,7 @@ import java.util.List;
 public interface UserDtoMapper {
 
    /*
-   @Mapping(target = "matricule", source = "userId.matricule")
+   @Mapping(target = "matricule", source = "userId.matricule ")
     @Mapping(target = "nom", source = "nom")
     @Mapping(target = "prenom", source = "prenom")
     @Mapping(target = "telephone", source = "telephone")

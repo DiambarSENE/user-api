@@ -64,7 +64,7 @@ public class UserController implements UserApi {
     @PostMapping("/listInput")
     @Override
     public ResponseEntity<Void> createUsersWithListInput(@Valid List<User> list) {
-        log.info("creation des nouveaux utilisateurs avec list");
+        log.info("creation des nouveaux utilisateurs avec list ");
         userService.createUsersWithListInput(list);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
@@ -136,21 +136,6 @@ public class UserController implements UserApi {
         roleService.update(role);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-
-    /*
-     * private <T> ResponseEntity<T> responseEntityHandler(T body, String
-     * reasonPhrase, HttpStatus status) {
-     *
-     * URI location = URI.create("yatout-user-uri");
-     * HttpHeaders responseHeaders = new HttpHeaders();
-     * responseHeaders.setLocation(location);
-     * responseHeaders.set("reasonPhrase", reasonPhrase);
-     * responseHeaders.setContentType(MediaType.APPLICATION_JSON);
-     *
-     * return new ResponseEntity<>(body, responseHeaders, status);
-     * }
-     */
 
 
 }

@@ -35,7 +35,6 @@ public class RoleServiceImpl implements RoleService{
         List<RoleDto> all = (List<RoleDto>) roleRepository.findAll();
         return roleMapper.mapToRoleList(all);
     }
-
     @Override
     public RoleDto getRoleByName(String roleName) {
         return roleRepository.findByName(roleName);

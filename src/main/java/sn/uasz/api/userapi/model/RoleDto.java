@@ -19,5 +19,6 @@ public class RoleDto implements Serializable {
     @Column(name = "name",unique = true, nullable = false)
     public String roleName;
     @Column(name = "roledescription")
+
     public String roleDescription;
 }

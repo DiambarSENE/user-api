@@ -32,7 +32,6 @@ public class UserServiceImpl implements UserService {
     //private RoleMapper roleMapper;
 
     private PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-
     @Override
     public void addUser(User user) throws ImpossibleAddUserException{
         //System.out.println("input user: " + user.toString());

@@ -10,5 +10,6 @@ public interface RoleService {
     void deleteRole(Integer integer);
     List<Role> getAllRole();
     RoleDto getRoleByName(String roleName);
+
     void update(Role rol);
 }

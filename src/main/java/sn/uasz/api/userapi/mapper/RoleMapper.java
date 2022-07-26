@@ -12,7 +12,7 @@ import java.util.List;
 @Mapper(componentModel = "spring", implementationPackage = "<PACKAGE_NAME>.generated")
 public interface RoleMapper {
 
-    @Mapping(target = "roleName", source = "roleName")
+    @Mapping(target = "roleName", source = "roleName" )
     @Mapping(target = "roleDescription", source = "roleDescription")
 
     RoleDto mapToRoleDto(Role role);

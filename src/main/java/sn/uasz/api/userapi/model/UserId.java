@@ -11,7 +11,7 @@ import java.io.Serializable;
 //@Embeddable
 public class UserId implements Serializable {
 
-    //@Column(name = "email", nullable = false)
+    //@Column(name = "email", nullable = false )
     //public String email;
     //@Column(name = "matricule", nullable = false)
     //public String matricule;

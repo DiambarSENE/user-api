@@ -49,6 +49,7 @@ public class UserDto implements Serializable {
             inverseJoinColumns = @JoinColumn(name = "role_id")
     )
     @JsonFormat(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
+
     public Set<RoleDto> roles = new HashSet<>();
     public void addRole(RoleDto roleDto) {
         this.roles.add(roleDto);

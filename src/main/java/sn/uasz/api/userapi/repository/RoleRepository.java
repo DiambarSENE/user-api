@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public interface RoleRepository extends CrudRepository<RoleDto, Long> {
 
-    //@Query(value = "SELECT r FROM RoleDto r WHERE r.name = ?1")
+    //@Query(value = "SELECT r FROM RoleDto r WHERE r.name = ?1 ")
     @Query(value = "SELECT * FROM roles r WHERE r.name = ?1",nativeQuery = true)
     RoleDto findByName(String roles);
 

@@ -1,4 +1,4 @@
 package sn.uasz.api.userapi.mapper;
 
-public interface RoleDtoMapper {
+public interface RoleDtoMapper{
 }

@@ -16,7 +16,7 @@ public interface UserRepository extends CrudRepository<UserDto, Long> {
 
     UserDto findByEmail(String email);
 
-    // @Query("SELECT * FROM Users u LEFT JOIN u.roles role WHERE role.id = ?1")
+    // @Query("SELECT * FROM Users u LEFT JOIN u.roles role WHERE role.id = ?1 ")
     // List<User> findUserByRole(int role);
 
 
