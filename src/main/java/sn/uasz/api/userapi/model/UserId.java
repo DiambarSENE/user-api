@@ -7,15 +7,14 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import java.io.Serializable;
 
-@Data
-@Embeddable
-//@Builder
+//@Data
+//@Embeddable
 public class UserId implements Serializable {
 
-    @Column(name = "email", nullable = false)
-    private String email;
-    @Column(name = "telephone", nullable = false)
-    private String telephone;
+    //@Column(name = "email", nullable = false)
+    //public String email;
+    //@Column(name = "matricule", nullable = false)
+    //public String matricule;
 
 
 }

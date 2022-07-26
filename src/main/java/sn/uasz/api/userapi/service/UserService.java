@@ -1,14 +1,23 @@
 package sn.uasz.api.userapi.service;
 
 
-import org.springframework.validation.annotation.Validated;
-import sn.uasz.api.userapi.model.UserDto;
 import sn.uasz.spi.user.model.User;
 
-@Validated
-public interface UserService {
-     //void getAllUser();
+import java.util.List;
 
-    void ajoutUser(User user);
+
+public interface UserService {
+
+    void addUser(User user);
     User getUserById(Integer userId);
+    void deleteUser(Integer integer);
+    List<User> getAllUser();
+    void updateUser(User user);
+    void createUsersWithListInput(List<User> users);
+    void createUsersWithArrayInput(List<User> users);
+    String loginUser(String email, String pass);
+    void logoutUser();
+
+
+
 }

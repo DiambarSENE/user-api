@@ -1,10 +1,10 @@
-CREATE TABLE USERS
+CREATE TABLE users
 (
-    id Int PRIMARY KEY,
+    id Long PRIMARY KEY,
     nom VARCHAR(50) NOT NULL,
     prennom VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    mot_de_passe VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
     telephone VARCHAR(50) NOT NULL,
     matricule VARCHAR(50) NOT NULL,
     ufr VARCHAR(50) NOT NULL,
